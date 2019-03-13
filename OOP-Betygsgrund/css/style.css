@@ -1,0 +1,25 @@
+
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+header {
+background: #fc0;
+background: linear-gradient(90deg,#ff6100 0,#fc0);
+height: 8px;
+width: 10000px;
+
+}
+
+.sidenav {
+    
+    background-color: #FBF2EA;
+
+
+  }
+body{
+    background-color:white;
+}
+/* Main navi */
