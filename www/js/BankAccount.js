@@ -19,7 +19,8 @@ class BankAccount {
             return true;
       } 
     }
-    
+
+        
     //     Make a withdrawal of a specified amount.
     //     Return true if this was possible, false otherwise. 
     withdraw(amount) {
