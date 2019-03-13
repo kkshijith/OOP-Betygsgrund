@@ -14,17 +14,17 @@ class Customer  {
 
     createAccount(type){
         //Skapa transactions, savings and  credit card accounts
-        if(type == 1){
+        if(type === 1){
             // trans account
             let account = new TransactionsAccount('transkonto', this.pnr, 0);
             this.accounts.push(account);
-        } else if (type == 2){
+        } else if (type === 2){
             // Savings account
             let account = new SavingsAccount('savingskonto', this.pnr, 0);
             this.accounts.push(account);
-        } else if (type == 3){
+        } else if (type === 3){
             //Credit Card konto
-            let account = new CreditCardAccount('savingskonto', this.pnr, 0);
+            let account = new CreditCardAccount('creditcard', this.pnr, 50000);
             this.accounts.push(account);
         }
     }
